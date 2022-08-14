@@ -1,0 +1,42 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: white;
+}
+header nav ul {
+  text-align: center;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #DEA057;
+}
+header nav ul li a:hover {
+  color: #E0D8B0;
+}
+
+.banner {
+  background: url(../../imagens/banner.jpeg);
+  background-repeat: no-repeat;
+  background-position: 27%;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner__texts {
+  text-align: center;
+}
+.banner__texts--main {
+  color: #E0D8B0;
+  font-size: 3rem;
+}
+.banner__texts--aside {
+  color: #DEA057;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=styles.css.map */
