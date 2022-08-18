@@ -1,0 +1,42 @@
+@import '../abstracts/variables';
+
+.desconts {
+    background-color: $color-primary;
+    padding: 50px;
+    text-align: center;
+    &__title {
+        font-size: $font-size-secondary;
+        color: $color-terciary;
+        margin-bottom: 20px;
+    }
+    &__input {
+        border-radius: 20px;
+        border: none;
+        height: 40px;
+        width: 50%;
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 20px;
+        &:focus-within, &:not([value=""]), &:hover {
+            outline: 2px solid $color-terciary;
+        }
+    }
+    &__button {
+        border-radius: 20px;
+        height: 40px;
+        width: 25%;
+        border: none;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: $color-terciary;
+        color: $color-primary;
+        box-shadow: 1px 1px 1px #0000004f;
+        transition: 0.2s;
+        &:hover {
+            cursor: pointer;
+            letter-spacing: 2px;
+            background-color: $color-secondary;
+        }
+    }
+}

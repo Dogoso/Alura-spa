@@ -1,0 +1,15 @@
+@import ../abstracts/_variables.scss
+
+@mixin create-border($sizes...)
+    background: linear-gradient(to left, $sizes)
+
+.footer 
+    text-align: center
+    padding: 30px
+    background-color: $color-primary
+    // @include create-border(red, blue)
+    &__paragraph 
+        color: $color-terciary
+        font-weight: bold
+        &__heart
+            color: red
